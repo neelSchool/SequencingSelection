@@ -67,8 +67,71 @@ namespace SequencingSelection
             //int Texts = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine((Minutes * 0.1) + (Texts * 0.05) + 10);
 
-            
+            ///Algorithm 9
+            // string Name = "John";
+            // Console.WriteLine("Enter your first name");
+            // string UserName = Console.ReadLine();
+            // if (Name == UserName)
+            // {
+            //     Console.WriteLine("You are cool");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Nice to meet you");
+            // }
 
+            ////Algorthim 10
+            // int Answer = 26;
+            // Console.WriteLine("How many letters in the alphabet?");
+            // int Guess = Convert.ToInt32(Console.ReadLine());
+            // if (Answer == Guess)
+            // {
+            //     Console.WriteLine("Correct");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Incorrect");
+            // }
+
+            ////Algorithm 11
+            // Console.WriteLine("Input a number");
+            // int Number = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("Input another number");
+            // int SecondNum = Convert.ToInt32(Console.ReadLine());
+            // if (Number > SecondNum)
+            // {
+            //     Console.WriteLine("The first number is greater");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("The second number is greater");
+            // }
+
+            ////Algrithm 12
+            // int Random = Next(1,10);
+            // Console.WriteLine("Guess a number between 1 and 10");
+            // int Guess = Convert.ToInt32(Console.ReadLine());
+            // if (Random == Guess)
+            // {
+            //     Console.WriteLine("Correct");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Not what i was thinking!");
+            // }
+
+            ////Algorithm 13
+            int Holidays = 28;
+            Console.WriteLine("How many days do you work per week?");
+            int Days = Convert.ToInt32(Console.ReadLine());
+            if (Days == 5)
+            {
+                Console.WriteLine($"Holidays: {Holidays}"); 
+            }
+            else
+            {
+                Console.WriteLine($"Holidays: {Holidays * Days / 5}");
+            }
         }
     }
 }
