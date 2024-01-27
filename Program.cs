@@ -10,13 +10,13 @@ namespace SequencingSelection
     {
         static void Main(string[] args)
         {
-            ////Algorithm 1
-            //Console.WriteLine("what is your name?");
-            //string Name = Console.ReadLine();
-            //Console.WriteLine("What is your age?");
-            //int Age = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine("What is your favorite color?");
-            //string Color = Console.ReadLine();
+            // //Algorithm 1
+            // Console.WriteLine("what is your name?");
+            // string Name = Console.ReadLine();
+            // Console.WriteLine("What is your age?");
+            // int Age = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("What is your favorite color?");
+            // string Color = Console.ReadLine();
 
             ////Algorithm 2
             //Console.WriteLine("what is your first name?");
